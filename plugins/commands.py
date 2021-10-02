@@ -220,12 +220,12 @@ async def start(client, message):
                    InlineKeyboardButton("𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝙷𝚎𝚕𝚙", callback_data="help_data")
                 ],
                 [
-                   InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
-                   InlineKeyboardButton("🤖Bot List", url="https://t.me/Mo_Tech_YT/176"),
-                   InlineKeyboardButton("👨‍💻Source", url="https://youtu.be/KrpqqNNLUSU")
+                   InlineKeyboardButton("🗣️Movie 𝙶𝚛𝚘𝚞𝚙", url="https://t.me/ADMOVEIAD"),
+                   InlineKeyboardButton("🤖 More botz", url="https://t.me/AD_BOTZ"),
+                   InlineKeyboardButton("👨‍💻Source", url="https://github.com/LuciferMoringStarDevil/Unlimited-Filter-BotV2")
                 ],
                 [
-                   InlineKeyboardButton("🔻 Subscribe Now YouTube 🔻", url="https://youtu.be/KrpqqNNLUSU")
+                   InlineKeyboardButton("🔻 Join My Movie Groop 🔻", url="https://t.me/ADMOVEIAD")
                 ]
             ]
         ),
@@ -251,11 +251,11 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Mo_tech_group"),
+                    InlineKeyboardButton("🗣️𝙶𝚛𝚘𝚞𝚙", url="https://t.me/AD_BOTZ"),
                     InlineKeyboardButton("About Me👨‍💼", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("🖥️ 𝙷𝚘𝚠 𝚝𝚘 𝙳𝚎𝚙𝚕𝚘𝚢 🖥️", url="https://youtu.be/KrpqqNNLUSU")
+                    InlineKeyboardButton("🎬 Movie Groop 🎬", url="https://t.me/ADMOVEIAD")
                 ]
             ]
         ),
@@ -272,7 +272,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "⛓️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ⛓️", url="https://github.com/MRK-YT/Unlimited-Filter-Bot")
+                        "⛓️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ⛓️", url="https://github.com/LuciferMoringStarDevil/Unlimited-Filter-BotV2")
                 ],
                 [
                     InlineKeyboardButton("🔙 𝙱𝚊𝚌𝚔", callback_data="help_data"),
